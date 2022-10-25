@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+html{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: url('../img/bg.png') repeat-x #629d65;
+}
+
+#container{
+    background: white;
+    width: 900px;
+    margin: 10px auto;
+}
+
+#header{
+    height: 240px;
+    background: url('../img/logo1.jpg')
+}
+
+#header h1{
+    font-size: 5em;
+    color: white;
+    text-transform: uppercase;
+    padding: 80px 0 0 410px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#sidebar{
+    width: 25.9999%;
+    float: left;
+}
+
+#content{
+    width: 65.9999%;
+    float: left;
+}
+
+#content .news{
+    margin: 20px 70px 40px 0;
+}
+
+#content .news h2{
+    padding-bottom: 20px;
+    font-size: 2em;
+}
+
+#content .news p{
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#content .news p img{
+    float: left;
+    margin-right: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+#sidebar .block{
+    background: url('../img/img02.gif') no-repeat right bottom #96a96f;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding-bottom: 40px;
+}
+
+#sidebar .block h3{
+    background: #203926;
+    color: white;
+    text-indent: 5px;
+}
+
+#sidebar .block ul{
+    list-style-type: none;
+}
+
+#sidebar .block ul li .menupont{
+    padding: 10px;
+    padding-right: 40px;
+    display: inline-block;
+    color: #203926;
+    text-decoration: none;
+}
+
+#sidebar .block ul li .menupont:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+#footer{
+    color: white;
+    background: #203926;
+    text-align: center;
+}
